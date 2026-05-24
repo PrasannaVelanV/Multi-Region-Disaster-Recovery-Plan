@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Multi-Region Disaster Recovery EC2 Instance
+
+Resources:
+  MyEC2:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-0f58b397bc5c1f2e8
+      InstanceType: t3.micro
